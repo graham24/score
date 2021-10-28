@@ -1,3 +1,6 @@
+body, input, button {
+    font-size: 1em;
+}
 .main {
     padding: 20px;
 }
@@ -11,13 +14,22 @@
 }
 .add-score {
     display: flex;
+    justify-content: end;
+}
+.add-score input {
+    max-width: 25vw;
 }
 .player {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     padding-bottom: 20px;
+    gap: 20px;
 }
 .player-info {
     display: flex;
     align-items: center;
+}
+button {
+    border: 1px solid gray;
+    white-space: nowrap;
 }
