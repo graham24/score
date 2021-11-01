@@ -84,7 +84,7 @@ class PlayerList extends React.Component {
                                         {player.name} - {player.score}
                                     </div>
                                     <form className="add-score" id={player.name} onSubmit={this.addScore}>
-                                        <input type="text" inputMode="decimal" enterkeyhint="send" placeholder="Add Score"
+                                        <input type="text" enterkeyhint="send" placeholder="Add Score"
                                             onChange={this.updatePlayerScore} />
                                         <button type="submit">Update Score</button>
                                     </form>
