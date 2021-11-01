@@ -73,7 +73,7 @@ class PlayerList extends React.Component {
                 <form className="add-player" onSubmit={this.addPlayer}>
                     <input type="text" placeholder="Player Name" value={this.state.playerName}
                         onChange={this.updatePlayerName} />
-                    <button type="submit">Add Player</button>
+                    <button type="submit" enterkeyhint="send">Add Player</button>
                 </form>
                 <div className="player-list">
                     <div>
